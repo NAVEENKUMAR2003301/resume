@@ -44,11 +44,11 @@ header{
     }
     25%{
         background: linear-gradient(270deg,
-            #ff0080,
-            #7928ca,
-            #2afadf,
+            #de7bac,
+            #9c58e0,
+            #76cbc0,
             #ffcb05,
-            #ff0080);
+            #d17ea8);
             background-position: 0% 100%;
     }
     50%{
@@ -57,11 +57,11 @@ header{
     }
     80%{
         background: linear-gradient(20deg,
-            #00c9ff,
-            #92fe9d,
-            #fcb045,
-            #fd1d1d,
-            #00c9ff);
+            #89cde0,
+            #8bd692,
+            #ceaa76,
+            #d58484,
+            #7bbacc);
             background-position: 50% 100%;
     }
 }
