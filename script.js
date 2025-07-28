@@ -1,3 +1,18 @@
+//header
+
+let more = document.querySelector(".more")
+let hum = document.querySelector(".hum")
+more.addEventListener("click",()=>{
+    setTimeout(()=>{
+        hum.classList.add("active");
+    },2000)
+})
+
+
+
+
+
+
 //about page
 
 

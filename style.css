@@ -40,6 +40,8 @@
   -webkit-backdrop-filter: blur(50px);
   box-shadow: 0 0 50px 0px black;
   overflow: hidden;
+  position: fixed;
+  z-index: 99;
 }
 
 .header > nav > ul {
@@ -190,6 +192,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  top: 60px;
 }
 
 .body::after{
@@ -1004,7 +1007,9 @@ footer>.social{
   display: flex;
 }
 
-
+.hum{
+  display: none;
+}
 
 
 
@@ -1489,6 +1494,24 @@ background-color: var(--main-color);
   padding: 10px;
  
 }
+.hum{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #000000;
+  z-index: 9;
+  transition: 2s all ease;
+
+  position: fixed;
+
+}
 }
 
 
@@ -1515,7 +1538,7 @@ background-color: var(--main-color);
   .more::after {
     content: "More";
     position: absolute;
-    top: 40px;
+    top: 43px;
     right: px;
     color: w;
     font-weight: 900;
@@ -1541,4 +1564,31 @@ background-color: var(--main-color);
     }
     
 }
+
+.hum{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #000000;
+  z-index: 9;
+  transition: 2s all ease;
+
+  position: fixed;
+
+}
+.hum>div>a{
+  text-decoration: none;
+  font-weight: 900;
+}
+.active{
+  display: flex;
+}
+
 }
