@@ -1276,7 +1276,7 @@ background-color: var(--main-color);
 
 }
 .coursed{
-  height: 230vh;
+  height: 210vh;
   display: flex;
   flex-direction: column;
 }
