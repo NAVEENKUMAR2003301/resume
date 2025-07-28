@@ -1223,7 +1223,7 @@ background-color: var(--main-color);
   width: 100vw;
   height: 100vh;
 
-  background-color: rgba(255, 255, 255, 0.759);
+  background-color: white;
 
   display: flex;
   flex-direction: column;
@@ -1329,7 +1329,7 @@ background-color: var(--main-color);
   width: 100vw;
   height: 100vh;
 
-  background-color: rgba(255, 255, 255, 0.759);
+  background-color: white;
 
   display: flex;
   flex-direction: column;
@@ -1339,6 +1339,38 @@ background-color: var(--main-color);
 
   padding: 20px;
 
+}
+
+.projectt{
+  height: 170vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding-top: 50px;
+}
+.projectt>.certificate{
+ width: 100%;
+ height: 200vw;
+ text-align: center;
+}
+.projectt>.aGrid{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: px;
+ 
+}
+.stemp>img{
+  width: 50px;
+  position: relative;
+  top: 40px;
+  left: 5px;
 }
 }
 
