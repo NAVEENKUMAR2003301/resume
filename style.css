@@ -539,7 +539,7 @@ background-color: var(--main-color);
 .stemp>img{
   width: 50px;
   position: relative;
-  top: 90px;
+  top: 70px;
   animation: range 2s ease;
   animation-timeline: view();
   animation-range: 0% cover 40%;
@@ -586,7 +586,7 @@ background-color: var(--main-color);
   width: 70vw;
   height: 100vh;
 
-  padding: 50px;
+  padding: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
