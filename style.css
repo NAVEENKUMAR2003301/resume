@@ -540,8 +540,23 @@ background-color: var(--main-color);
   width: 50px;
   position: relative;
   top: 90px;
+  animation: range 2s ease;
+  animation-timeline: view();
+  animation-range: 0% cover 40%;
 }
 
+@keyframes range{
+  from{
+    transform: translateX(500px);
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+    scale: 1;
+  }
+}
 
 /* course */
 
@@ -644,6 +659,9 @@ background-color: var(--main-color);
   justify-content: center;
   align-items: center;
   gap: 20px;
+  animation: right 3s ease;
+  animation-timeline: view();
+  animation-range: 0% cover 40%;
 }
 .coursed>.cGrid > .card2{
   width: 300px;
@@ -665,6 +683,9 @@ background-color: var(--main-color);
   justify-content: center;
   align-items: center;
   gap: 20px;
+  animation: right 3s ease;
+  animation-timeline: view();
+  animation-range: 0% cover 40%;
 }
 .coursed>.cGrid > .card3{
   width: 300px;
@@ -686,6 +707,9 @@ background-color: var(--main-color);
   justify-content: center;
   align-items: center;
   gap: 20px;
+  animation: right 3s ease;
+  animation-timeline: view();
+  animation-range: 0% cover 40%;
 }
 .coursed>.cGrid > .card4{
   width: 300px;
@@ -707,8 +731,23 @@ background-color: var(--main-color);
   justify-content: center;
   align-items: center;
   gap: 20px;
+  animation: right 3s ease;
+  animation-timeline: view();
+  animation-range: 0% cover 40%;
 }
 
+@keyframes right{
+  from{
+    transform: translateX(-500px);
+    opacity: 0;
+    scale: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+    scale: 1;
+  }
+}
 .coursed>.cGrid > .card::after{
   content: "";
   width: 100%;
@@ -1131,11 +1170,15 @@ footer>.social{
   align-items: center;
 }
 .projectt{
+  
   height: 190vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.projectt>.certificate{
+  width: 100vw;
 }
 }
 @media(max-width:704px){
