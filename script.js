@@ -47,3 +47,40 @@ setInterval(()=>{
      console.log(error);
    });
 },5000)
+
+
+//age
+
+let age = document.getElementById("age")
+
+
+setInterval(()=>{
+let dob = new Date("2003-01-30T09:00:00");
+let now = new Date();
+function getAge(dob, now) {
+  let age = new Date(now - dob);
+  return {
+    year: age.getUTCFullYear() - 1970,
+    months: age.getUTCMonth(),
+    days: age.getUTCDate() - 1,
+    hours: age.getUTCHours(),
+    minutes: age.getUTCMinutes(),
+    seconds: age.getUTCSeconds(),
+  };
+}
+
+let ExactAge = getAge(dob, now);
+
+
+age.textContent = `${ExactAge.year} ${ExactAge.months} ${ExactAge.days} ${ExactAge.minutes} ${ExactAge.seconds}`;
+
+},1000)
+
+
+
+
+
+
+
+
+
