@@ -543,7 +543,7 @@ background-color: var(--main-color);
 .stemp>img{
   width: 50px;
   position: relative;
-  top: 70px;
+  top: 50px;
   animation: range 2s ease;
   animation-timeline: view();
   animation-range: 0% cover 40%;
@@ -1095,7 +1095,7 @@ footer>.social{
 .stemp>img{
   width: 50px;
   position: relative;
-  top: 40px;
+  top: 0px;
 }
 
 .coursed>.cGrid > .card1{
@@ -1345,6 +1345,10 @@ background-color: var(--main-color);
   gap: 5px;
   padding: 10px;
 }
+.stemp>img{
+  width: 20;
+  top: 0;
+}
 }
 
 @media(max-width:376px){
@@ -1426,9 +1430,9 @@ background-color: var(--main-color);
  
 }
 .stemp>img{
-  width: 50px;
+  width: 40px;
   position: relative;
-  top: 40px;
+  top: 0px;
   left: 5px;
 }
 }
@@ -1471,7 +1475,7 @@ background-color: var(--main-color);
 .stemp>img{
   width: 30px;
   position: relative;
-  top: 30px;
+  top: 0px;
   left: -5px;
 }
 .day{
