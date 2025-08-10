@@ -879,10 +879,10 @@ background-color: var(--main-color);
 
 @keyframes picture{
   form{
-    transform: rotateX(180deg);
+    transform: rotateY(180deg);
   }
   to{
-    transform: rotateX(360deg);
+    transform: rotateY(360deg);
   }
 }
 
